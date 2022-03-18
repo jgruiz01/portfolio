@@ -1,0 +1,39 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+   
+  h1 {
+    color: SeaGreen;
+  }
+   
+ p {
+   padding: 0%;
+ }  
+  p, 
+  li {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .nav-items {
+    display: flex;
+    list-style-type: none;
+  }
+  .nav-item {
+    margin: 8px;
+  }
+  .about-text-container{
+    margin-right: 10px;
+  }
+   
+  a {
+    text-decoration: none;
+  }
+
+  .about {
+    display: inline-flex;
+  }
+  #ada {
+    width: 300px;
+    border-radius: 20px;
+  }
