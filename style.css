@@ -15,6 +15,16 @@
     text-align: justify;
   }
 
+  li::marker {
+    display: list-item;
+    content: "*" ;
+    color: lightsalmon;
+    font-weight: bold;    
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
   .nav-items {
     display: flex;
     list-style-type: none;
@@ -36,4 +46,12 @@
   #ada {
     width: 300px;
     border-radius: 20px;
+  }
+
+ 
+  h3::marker {
+    display: list-item;
+    content: "#" counter(h3) " ";
+    color: lightsalmon;
+    font-weight: bold;
   }
